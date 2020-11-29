@@ -72,7 +72,7 @@ setup.py
 
 
 
-6. Install the Plugin i
+6. Installing the Plugin
 
 The plugin is now ready to be installed via `python setup.py install`. If we are under development it is better to use `python setup.py develop`. Then we don’t have to reinstall it after any changes we will still do. 
 We can have the `octoprint dev plugin:install` command do everything for us here, it will ensure to use the python binary belonging to your OctoPrint installation:
