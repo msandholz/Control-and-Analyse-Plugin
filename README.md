@@ -30,10 +30,10 @@ github_username [you]: msandholz
 plugin_version [0.1.0]: 0.1.0
 plugin_description [TODO]: An OctoPi plugin to analyse and control the 3D-printer. 
 plugin_license [AGPLv3]: AGPLv3
-plugin_homepage [https://github.com/msandholz/Control-and-Analyse-Plugin]:
-plugin_source [https://github.com/msandholz/Control-and-Analyse-Plugin]:
-plugin_installurl [https://github.com/msandholz/Control-and-Analyse-Plugind/archive/master.zip]:
-(oprint) $ cd OctoPrint-HelloWorld
+plugin_homepage [https://github.com/msandholz/Control-and-Analyse-Plugin]: https://github.com/msandholz/Control-and-Analyse-Plugin
+plugin_source [https://github.com/msandholz/Control-and-Analyse-Plugin]: https://github.com/msandholz/Control-and-Analyse-Plugin
+plugin_installurl [https://github.com/msandholz/Control-and-Analyse-Plugind/archive/master.zip]: https://github.com/msandholz/Control-and-Analyse-Plugind/archive/master.zip
+(oprint) $ cd OctoPrint_CoAn_Plugin
 ```
 
 
