@@ -69,9 +69,6 @@ setup.py
 
 ```
 
-
-
-
 6. Installing the Plugin
 
 The plugin is now ready to be installed via `python setup.py install`. If we are under development it is better to use `python setup.py develop`. Then we don’t have to reinstall it after any changes we will still do. 
@@ -80,3 +77,16 @@ We can have the `octoprint dev plugin:install` command do everything for us here
 ```
 (oprint) ~/OctoPrint-CoAn_Plugin $ octoprint dev plugin:install
 ```
+
+7. Restart OctoPi and watch log-file
+```
+~/.octoprint/logs $ less +F octoprint.log
+
+...
+2020-11-29 12:01:35,118 - octoprint.plugins.CoAn_Plugin - INFO - Control and Analyse Plugin started!
+...
+
+```
+
+
+
