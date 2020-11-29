@@ -64,12 +64,19 @@ setup.cfg
 setup.py
 ```
 
-5. While we’ll need some of those folders later on, we’ll now delete everything that we don’t need right now first, that will make it easier to understand what folder does what later on. Delete the following folders and anything in them:
+5. Insert some code in __init__.py
+```
 
 ```
-extras
-translations
-octoprint_helloworld/static
-octoprint_helloworld/templates
-The final project structure should look like this for now:
+
+
+
+
+6. Install the Plugin i
+
+The plugin is now ready to be installed via `python setup.py install`. If we are under development it is better to use `python setup.py develop`. Then we don’t have to reinstall it after any changes we will still do. 
+We can have the `octoprint dev plugin:install` command do everything for us here, it will ensure to use the python binary belonging to your OctoPrint installation:
+
+```
+(oprint) ~/OctoPrint-CoAn_Plugin $ octoprint dev plugin:install
 ```
