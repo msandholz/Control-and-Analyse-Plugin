@@ -20,24 +20,19 @@ Usage: octoprint [OPTIONS] COMMAND [ARGS]...
 
 3. Then we can use the octoprint dev ´plugin:new´ command to generate a new OctoPrint plugin skeleton for us:
 ```
-(oprint) $ octoprint dev plugin:new helloworld
-Cloning into 'cookiecutter-octoprint-plugin'...
-remote: Counting objects: 101, done.
-remote: Total 101 (delta 0), reused 0 (delta 0), pack-reused 101
-Receiving objects: 100% (101/101), 53.69 KiB, done.
-Resolving deltas: 100% (35/35), done.
-plugin_package [octoprint_helloworld]:
-plugin_name [OctoPrint-Helloworld]:
-repo_name [OctoPrint-Helloworld]:
-full_name [You]: Your Name
-email [you@example.com]: you@somewhere.net
-github_username [you]: yourGithubName
-plugin_version [0.1.0]: 1.0.0
-plugin_description [TODO]: A quick "Hello World" example plugin for OCtoPrint
-plugin_license [AGPLv3]:
-plugin_homepage [https://github.com/yourGithubName/OctoPrint-Helloworld]:
-plugin_source [https://github.com/yourGithubName/OctoPrint-Helloworld]:
-plugin_installurl [https://github.com/yourGithubName/OctoPrint-Helloworld/archive/master.zip]:
+(oprint) $ octoprint dev plugin:new CoAn_Plugin
+plugin_package [octoprint_CoAn_Plugin]: octoprint_CoAn_Plugin
+plugin_name [OctoPrint-CoAn_Plugin]: OctoPrint_CoAn_Plugin
+repo_name [OctoPrint-CoAn_Plugin]: OctoPrint-CoAn_Plugin
+full_name [You]: Markus Sandholz
+email [you@example.com]: markus.sandholz@t-online.de
+github_username [you]: msandholz
+plugin_version [0.1.0]: 0.1.0
+plugin_description [TODO]: An OctoPi plugin to analyse and control the 3D-printer. 
+plugin_license [AGPLv3]: AGPLv3
+plugin_homepage [https://github.com/msandholz/Control-and-Analyse-Plugin]:
+plugin_source [https://github.com/msandholz/Control-and-Analyse-Plugin]:
+plugin_installurl [https://github.com/msandholz/Control-and-Analyse-Plugind/archive/master.zip]:
 (oprint) $ cd OctoPrint-HelloWorld
 ```
 
