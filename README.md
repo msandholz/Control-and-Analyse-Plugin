@@ -18,7 +18,7 @@ Usage: octoprint [OPTIONS] COMMAND [ARGS]...
 (oprint) $ pip install "cookiecutter>=1.4,<1.7"
 ```
 
-3. Then we can use the octoprint dev ´plugin:new´ command to generate a new OctoPrint plugin skeleton for us:
+3. Then we can use the ´octoprint dev plugin:new´ command to generate a new OctoPrint plugin skeleton for us:
 ```
 (oprint) $ octoprint dev plugin:new CoAn_Plugin
 plugin_package [octoprint_CoAn_Plugin]: octoprint_CoAn_Plugin
@@ -36,9 +36,7 @@ plugin_installurl [https://github.com/msandholz/Control-and-Analyse-Plugind/arch
 (oprint) $ cd OctoPrint_CoAn_Plugin
 ```
 
-
-
-4. This will create a project structure in the OctoPrint-HelloWorld folder we just changed to that looks like this:
+4. This will create a project structure in the `OctoPrint-CoAn_Plugin` folder we just changed to that looks like this:
 ```
 translations/
     README.txt
