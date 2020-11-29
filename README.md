@@ -40,28 +40,29 @@ plugin_installurl [https://github.com/msandholz/Control-and-Analyse-Plugind/arch
 
 4. This will create a project structure in the OctoPrint-HelloWorld folder we just changed to that looks like this:
 ```
-extras/
+translations/
     README.txt
-    helloworld.md
-octoprint_helloworld/
+octoprint_CoAn_Plugin/
     static/
         css/
-            README.txt
+            CoAn_Plugin.css
         js/
-            README.txt
+            CoAn_Plugin.js
         less/
-            README.txt
+            CoAn_Plugin.less
     templates/
         README.txt
     __init__.py
-translations/
+extras/
     README.txt
+    CoAn_Plugin.md
 .editorconfig
 .gitignore
 babel.cfg
 MANIFEST.in
 README.md
 requirements.txt
+setup.cfg
 setup.py
 ```
 
