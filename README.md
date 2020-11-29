@@ -66,6 +66,21 @@ setup.py
 
 5. Insert some code in __init__.py
 ```
+# coding=utf-8
+from __future__ import absolute_import
+
+import octoprint.plugin
+
+class Coan_pluginPlugin(octoprint.plugin.StartupPlugin):
+
+	def on_after_startup(self):
+		self._logger.info("Control and Analyse Plugin started!")
+
+__plugin_name__ = "Coan_plugin Plugin"
+__plugin_version__= "0.1.0"
+__plugin_description__ = "An OctoPi Plugin to control and analyse the 3D-printer"
+__plugin_pythoncompat__ = ">=2.7,<4"
+__plugin_implementation__ = Coan_pluginPlugin()
 
 ```
 
