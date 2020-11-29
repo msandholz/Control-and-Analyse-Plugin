@@ -95,7 +95,7 @@ We can have the `octoprint dev plugin:install` command do everything for us here
 
 7. Restart OctoPi and watch log-file
 ```
-~/.octoprint/logs $ less +F octoprint.log
+$ less +F ~/.octoprint/logs/octoprint.log
 
 ...
 2020-11-29 12:01:35,118 - octoprint.plugins.CoAn_Plugin - INFO - Control and Analyse Plugin started!
