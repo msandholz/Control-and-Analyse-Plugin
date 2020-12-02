@@ -97,6 +97,8 @@ We can have the `octoprint dev plugin:install` command do everything for us here
 ```
 $ less +F ~/.octoprint/logs/octoprint.log
 
+$ tail -f ~/.octoprint/logs/octoprint.log
+
 ...
 2020-11-29 12:01:35,118 - octoprint.plugins.CoAn_Plugin - INFO - Control and Analyse Plugin started!
 ...
