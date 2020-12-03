@@ -43,11 +43,11 @@ translations/
 octoprint_CoAn_Plugin/
     static/
         css/
-            CoAn_Plugin.css
+            <plugin identifier>.css
         js/
-            CoAn_Plugin.js
+            <plugin identifier>.js
         less/
-            CoAn_Plugin.less
+            <plugin identifier>.less
     templates/
     	<plugin identifier>_navbar.jinja2
         README.txt
