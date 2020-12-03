@@ -49,6 +49,7 @@ octoprint_CoAn_Plugin/
         less/
             CoAn_Plugin.less
     templates/
+    	<>_.jinja2
         README.txt
     __init__.py
 extras/
