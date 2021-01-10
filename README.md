@@ -94,7 +94,7 @@ We can have the `octoprint dev plugin:install` command do everything for us here
 (oprint) ~/OctoPrint-CoAn_Plugin $ octoprint dev plugin:install
 ```
 
-7. Restart OctoPi and watch log-file
+7. Restart OctoPi with `sudo service octoprint restart` and watch log-file
 ```
 $ less +F ~/.octoprint/logs/octoprint.log
 
